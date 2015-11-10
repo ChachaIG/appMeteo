@@ -1,0 +1,5 @@
+U:\env dev log\app\WebApplication1\howToCallApi\bin\Debug\howToCallApi.exe.config
+U:\env dev log\app\WebApplication1\howToCallApi\bin\Debug\howToCallApi.exe
+U:\env dev log\app\WebApplication1\howToCallApi\bin\Debug\howToCallApi.pdb
+U:\env dev log\app\WebApplication1\howToCallApi\obj\Debug\howToCallApi.exe
+U:\env dev log\app\WebApplication1\howToCallApi\obj\Debug\howToCallApi.pdb

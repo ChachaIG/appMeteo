@@ -1,0 +1,8 @@
+C:\WrkFldr\env dev log\callApi\bin\Debug\callApi.exe.config
+C:\WrkFldr\env dev log\callApi\bin\Debug\callApi.exe
+C:\WrkFldr\env dev log\callApi\bin\Debug\callApi.pdb
+C:\WrkFldr\env dev log\callApi\obj\Debug\callApi.exe
+C:\WrkFldr\env dev log\callApi\obj\Debug\callApi.pdb
+C:\WrkFldr\env dev log\callApi\bin\Debug\Newtonsoft.Json.dll
+C:\WrkFldr\env dev log\callApi\bin\Debug\Newtonsoft.Json.xml
+C:\WrkFldr\env dev log\callApi\obj\Debug\callApi.csprojResolveAssemblyReference.cache

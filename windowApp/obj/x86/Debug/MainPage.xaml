@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="windowApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:windowApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Gray">
+        <TextBlock x:ConnectionId='1' Name="title" Text="Mes prévisions" FontSize="48" Height="Auto"> </TextBlock>
+        <Grid Margin="0,60,100,0">
+            <ListView x:ConnectionId='2' x:Name="ForeCastListView" >
+                 <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <StackPanel   Orientation="Horizontal" Padding="5" Margin="3" >
+                            <TextBlock Text="{Binding MaxTemp}" TextWrapping="NoWrap" FontSize="22"></TextBlock>
+                            <StackPanel Margin="5">
+                                <TextBlock Text="{Binding City}" TextWrapping="NoWrap" Foreground="White" ></TextBlock>
+                                <TextBlock Text="{Binding Description}" TextWrapping="NoWrap" ></TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </Grid>
+</Page>
+

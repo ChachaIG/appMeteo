@@ -1,0 +1,1 @@
+C:\WrkFldr\env dev log\windowApp\windowApp.csproj;x86

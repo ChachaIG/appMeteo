@@ -3,3 +3,11 @@ U:\env dev log\app\WebApplication1\howToCallApi\bin\Debug\howToCallApi.exe
 U:\env dev log\app\WebApplication1\howToCallApi\bin\Debug\howToCallApi.pdb
 U:\env dev log\app\WebApplication1\howToCallApi\obj\Debug\howToCallApi.exe
 U:\env dev log\app\WebApplication1\howToCallApi\obj\Debug\howToCallApi.pdb
+C:\WrkFldr\env dev log\gitHub\appMeteo\WebApplication1\howToCallApi\bin\Debug\howToCallApi.exe.config
+C:\WrkFldr\env dev log\gitHub\appMeteo\WebApplication1\howToCallApi\bin\Debug\howToCallApi.exe
+C:\WrkFldr\env dev log\gitHub\appMeteo\WebApplication1\howToCallApi\bin\Debug\howToCallApi.pdb
+C:\WrkFldr\env dev log\gitHub\appMeteo\WebApplication1\howToCallApi\bin\Debug\Newtonsoft.Json.dll
+C:\WrkFldr\env dev log\gitHub\appMeteo\WebApplication1\howToCallApi\bin\Debug\Newtonsoft.Json.xml
+C:\WrkFldr\env dev log\gitHub\appMeteo\WebApplication1\howToCallApi\obj\Debug\howToCallApi.csprojResolveAssemblyReference.cache
+C:\WrkFldr\env dev log\gitHub\appMeteo\WebApplication1\howToCallApi\obj\Debug\howToCallApi.exe
+C:\WrkFldr\env dev log\gitHub\appMeteo\WebApplication1\howToCallApi\obj\Debug\howToCallApi.pdb

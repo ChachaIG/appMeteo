@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace WebApplication1.Controllers
 
         public CityForecast[] Get()
         {
+            #region odl code1
             /* if (region == "namur")
              {
                  return new string[] {
@@ -27,7 +29,7 @@ namespace WebApplication1.Controllers
                  };
              }*/
 
-            return new CityForecast[]
+            /*return new CityForecast[]
             {
                 new CityForecast()
                 {
@@ -39,12 +41,16 @@ namespace WebApplication1.Controllers
                     City = "Bruxelle", Description = "nuageux", MaxTemp = 12
                 }
 
-
+            
            }.OrderBy(Forecast => Forecast.City).ToArray();
+           */
             //return GetForeCastFromDatabase().OrderBy(Forecast => Forecast.City).ToArray();
-
+            #endregion
+            AccesDonnees ad = new AccesDonnees();
+            return ad.GetForeCastFromDatabase();
         }
 
+        #region old code2
         /*private CityForecast[] GetForeCastFromDatabase()
         {
             SqlConnection connexion = new SqlConnection("Data Source = (LocalDb)\\MSSQLLocalDb; Initial Catalog = testBD; Integrated Security = True; Pooling = False");
@@ -66,24 +72,27 @@ namespace WebApplication1.Controllers
             connexion.Close();
             return forecasts.ToArray();
         }*/
+        #endregion
     }
 }
-          
 
-       /* public string[] Post(string region)
-        {
-            if (region == "namur")
-            {
-                return new string[] {
-               "ensoleillé","brumeux","gris"
-                };
-            }
-            else
-            {
-                return new string[] {
-               "nuageux","pluvieux","gris"
-                };
-            }
-        }
-    }*/
+#region old code3
+/* public string[] Post(string region)
+ {
+     if (region == "namur")
+     {
+         return new string[] {
+        "ensoleillé","brumeux","gris"
+         };
+     }
+     else
+     {
+         return new string[] {
+        "nuageux","pluvieux","gris"
+         };
+     }
+ }
+}*/
+#endregion
+
 
